@@ -2,6 +2,24 @@
 
 Create CSS from JavaScript or TypeScript objects. Instead of writing CSS by hand, you define your styles as objects in your code, and this tool converts them into CSS.
 
+## Objects to CSS Using "mod.ts"
+
+```ts
+import { object2css } from "./mod.ts";
+// const obj = ...
+console.log(object2css(obj)); // Convert obj to css and display to console
+```
+
+## Utilizing Deno's "generate.ts" Script
+
+```sh
+# General usage (w/ watch)
+deno run --allow-read --allow-write generate.ts [INPUT_FILE] [OUTPUT_FILE] --watch
+
+# Console output only
+deno run --allow-read generate.ts [INPUT_FILE]
+```
+
 ## Demo
 
 Input:

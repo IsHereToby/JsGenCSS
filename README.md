@@ -20,7 +20,7 @@ deno run --allow-read --allow-write generate.ts [INPUT_FILE] [OUTPUT_FILE] --wat
 deno run --allow-read generate.ts [INPUT_FILE]
 ```
 
-## Demo
+## Dem
 
 Input:
 
